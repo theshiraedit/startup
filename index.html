@@ -3,14 +3,14 @@
 <head>																						
 <meta charset="UTF-8">																						
 <meta name="viewport" content="width=device-width, initial-scale=1.0">																						
-<title>Startup Helper | Unleash Your Potential</title>																						
+<title>Bolt.new | Your Startup Roadmap</title>																						
 <link rel="stylesheet" href="style.css">																						
 <script src="script.js" defer></script>																						
 </head>																						
 <body>																						
 																						
 <header>																						
-<div class="logo">🚀 Startup Helper</div>																						
+<div class="logo">🚀 Bolt.new</div>																						
 <nav>																						
 <a href="index.html">Home</a>																						
 <a href="about.html">About</a>																						
@@ -19,43 +19,40 @@
 </nav>																						
 </header>																						
 																						
-<!-- Hero Section with Motion Effects -->																						
+<!-- Hero Section -->																						
 <section class="hero">																						
 <div class="overlay"></div>																						
 <div class="hero-content">																						
-<h1 class="fade-in">Unleash Your Potential. Build a Business That Thrives.</h1>																						
-<p class="fade-in">Entrepreneurs aren't born. They're made. Take the first step today.</p>																						
-<a href="about.html" class="cta-button fade-in">Start Now</a>																						
+<h1>Take the Right Steps to Build Your Startup</h1>																						
+<p>Answer a few questions, and we’ll show you exactly what to do next.</p>																						
 </div>																						
 </section>																						
 																						
-<!-- Features Section -->																						
-<section class="features">																						
-<div class="feature slide-up">																						
-<h2>📌 Proven Startup Roadmap</h2>																						
-<p>Step-by-step guidance from idea to execution.</p>																						
-</div>																						
-<div class="feature slide-up">																						
-<h2>📚 Business Resources</h2>																						
-<p>Access funding, mentorship, and industry-leading tools.</p>																						
-</div>																						
-<div class="feature slide-up">																						
-<h2>💡 Madison Ventures</h2>																						
-<p>Connect with top investors and mentors to scale your business.</p>																						
-<a href="https://madisonventures.com" target="_blank" class="secondary-button">Learn More</a>																						
-</div>																						
+<!-- Startup Decision Tree -->																						
+<section class="startup-roadmap">																						
+<h2>Where Are You in Your Startup Journey?</h2>																						
+																						
+<label for="startupStage">Select Your Stage:</label>																						
+<select id="startupStage" onchange="showNextStep()">																						
+<option value="">-- Choose One --</option>																						
+<option value="idea">I have an idea, but I don’t know where to start</option>																						
+<option value="validation">I want to validate my idea</option>																						
+<option value="funding">I need funding</option>																						
+<option value="scaling">I need to scale my business</option>																						
+</select>																						
+																						
+<div id="nextSteps"></div>																						
+																						
 </section>																						
 																						
-<!-- Call to Action -->																						
-<section class="cta">																						
-<h2 class="fade-in">Are You Ready to Take Action?</h2>																						
-<p class="fade-in">Success comes to those who seize the opportunity. The time is now.</p>																						
-<a href="contact.html" class="cta-button fade-in">Join Now</a>																						
+<!-- Madison Ventures Resource -->																						
+<section class="madison-ventures">																						
+<h2>Need Expert Guidance?</h2>																						
+<p>Connect with <a href="https://madisonventures.com" target="_blank">Madison Ventures</a> for funding and expert business advice.</p>																						
 </section>																						
 																						
-<!-- Footer -->																						
 <footer>																						
-<p>© 2025 Startup Helper | Powered by <a href="https://madisonventures.com" target="_blank">Madison Ventures</a></p>																						
+<p>© 2025 Bolt.new | Powered by <a href="https://madisonventures.com" target="_blank">Madison Ventures</a></p>																						
 </footer>																						
 																						
 </body>																						
